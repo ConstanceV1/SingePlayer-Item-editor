@@ -125,6 +125,19 @@ Download and install MongoDB Community Edition from [mongodb.com](https://www.mo
 
 ---
 
+## 👏 Credits
+
+| Role | Name |
+|------|------|
+| **Original Creator** | [Lxjo](https://github.com/lxjo101) – Built the foundation and core functionality |
+| **Maintainer & Developer** | [Constance](https://github.com/ConstanceV1) – UI overhaul, bug fixes, feature improvements, and ongoing development |
+
+**Special Thanks**
+- The Cycle: Reborn community for feedback and support
+- Contributors who report bugs and suggest features
+
+---
+
 ## 🤝 Contributing
 
 Found a bug or want to suggest a feature?
@@ -153,7 +166,7 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 
 <div align="center">
 
-**Made with ❤️ by Constance**
+**Made with ❤️ by the community**
 
 ⭐ **Star this repo** if you find it useful! ⭐
 
