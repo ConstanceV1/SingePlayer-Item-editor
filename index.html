@@ -366,6 +366,7 @@
             padding: 2px 0;
             outline: none;
             font-family: inherit;
+            appearance: textfield;
             -moz-appearance: textfield;
         }
 
@@ -1762,6 +1763,9 @@ this.remoteAssetBase = 'https://raw.githubusercontent.com/ConstanceV1/SingePlaye
                 const unique = [];
                 const seen = new Set();
                 for (const item of this.availableItems) {
+
+                    if (item.baseItemId === "ShieldRestoration04") continue;
+                    
                     if (!seen.has(item.baseItemId) && this.itemConfigs[item.baseItemId]) {
                         unique.push(item);
                         seen.add(item.baseItemId);
