@@ -80,7 +80,7 @@
       "artifactName": "${productName}-v${version}-${os}-${arch}.${ext}"
     },
     "portable": {
-      "artifactName": "TheCycleReborn-SaveEditor-v${version}.exe"
+      "artifactName": "SPCycle-Item-Editor-v${version}.exe"
     },
     "nsis": {
       "oneClick": false,
