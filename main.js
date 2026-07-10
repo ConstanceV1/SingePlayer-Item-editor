@@ -38,7 +38,7 @@ function createWindow() {
       preload: path.join(__dirname, 'preload.js')
     },
     icon: getIconPath(),
-    title: 'The Cycle: Reborn Save Editor',
+    title: 'SPCycle Irem editor',
     show: false, // Don't show until ready
     titleBarStyle: 'hidden', // Hide the default title bar
     frame: false // Remove the window frame completely
@@ -275,8 +275,8 @@ function createMenu() {
 function showAboutDialog() {
   dialog.showMessageBox(mainWindow, {
     type: 'info',
-    title: 'About The Cycle: Reborn Save Editor',
-    message: 'The Cycle: Reborn Save Editor',
+    title: 'About SPCycle Item editor',
+    message: 'SPCycle Item editor',
     detail: `Version: ${app.getVersion()}\n\nA desktop application for editing The Cycle: Reborn save files through MongoDB.\n\nCreated by the community for the community.\n\nFeatures automatic updates from GitHub releases.`,
     buttons: ['OK']
   });
