@@ -33,7 +33,7 @@
   },
   "build": {
     "appId": "com.cyclefrontier.saveeditor",
-    "productName": "The Cycle Reborn Save Editor",
+    "productName": "SPCycle Item Editor",
     "directories": {
       "output": "dist"
     },
