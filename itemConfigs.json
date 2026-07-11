@@ -50,16 +50,26 @@
             "attachment_weapon": "",
             "attachment_type": ""
         },
-        "TentaclePlant": {
+        "WaterPlant": {
             "displayName": "Waterweed Filament",
             "category": "materials",
-            "rarity": "rare",
+            "rarity": "uncommon",
             "maxDurability": -1,
             "icon": "WaterweedFilament.png",
             "maxStackSize": 10,
             "attachment_weapon": "",
             "attachment_type": ""
         },
+        "TentaclePlant": {
+  "displayName": "Spine Briar",
+  "category": "materials",
+  "rarity": "rare",
+  "maxDurability": -1,
+  "icon": "SpineBriar.png",
+  "maxStackSize": 10,
+  "attachment_weapon": "",
+  "attachment_type": ""
+},
         "WP_D_SMG_Energy_01": {
             "displayName": "Voltaic Brute",
             "category": "weapons",
