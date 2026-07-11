@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SPCycle - Item editor</title>
+    <title>The Cycle: Reborn - Save Editor</title>
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <style>
@@ -1262,7 +1262,7 @@
     <div class="title-bar">
         <div class="brand">
             <div class="logo">⚡</div>
-            <span>SingePlayer Cycle</span>
+            <span>The Cycle: Reborn</span>
             <span class="status-dot" id="title-dot"></span>
         </div>
         <div class="title-controls" id="title-controls">
@@ -1502,7 +1502,13 @@
                 this.imageErrors = new Set();
                 this.browseOpen = false;
                 this.currentEditingIndex = null;
-
+// Fix for consumable ID mismatches
+this.consumableFix = {
+    "Combat Stim": "Consumable_Health_04",
+    "Strong Stim": "Consumable_Health_05", 
+    "Strong Medkit": "Consumable_Health_03",
+    "Combat Medkit": "Consumable_Health_06"
+};
                 // API
                 this.apiBaseUrl = '/api';
                 // Remote asset URLs for ConstanceV1/SingePlayer-Item-editor
@@ -1825,7 +1831,10 @@ this.remoteAssetBase = 'https://raw.githubusercontent.com/ConstanceV1/SingePlaye
                 const amount = parseInt(quantity) || 1;
                 const config = this.getItemConfig(baseItemId);
                 const isWeapon = baseItemId.startsWith('WP_') || config.category === 'weapons';
-
+// Add this at the start of addItemToInventory()
+if (this.consumableFix[config.displayName]) {
+    baseItemId = this.consumableFix[config.displayName];
+}
                 if (isWeapon) {
                     for (let i = 0; i < amount; i++) {
                         this.inventory.push({
