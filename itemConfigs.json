@@ -3010,6 +3010,26 @@
   "attachment_weapon": "",
   "attachment_type": ""
 },
+        "WP_A_HVY_Shell_01": {
+  "displayName": "Karla",
+  "category": "weapons",
+  "rarity": "exotic",
+  "maxDurability": -1,
+  "icon": "KARLA.png",
+  "maxStackSize": 1,
+  "attachment_weapon": "",
+  "attachment_type": ""
+},
+"WP_D_HVY_Exotic_01": {
+  "displayName": "Haze",
+  "category": "weapons",
+  "rarity": "exotic",
+  "maxDurability": -1,
+  "icon": "HAZE.png",
+  "maxStackSize": 1,
+  "attachment_weapon": "",
+  "attachment_type": ""
+},
         "Mod_Korolev_Scanner_AlienCrystals": {
             "displayName": "Focus Crystal Scanning Module",
             "category": "attachments",
