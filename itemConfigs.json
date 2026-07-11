@@ -43,7 +43,7 @@
         "Consumable_Health_02": {
             "displayName": "Weak Medkit",
             "category": "consumables",
-            "rarity": "uncommon",
+            "rarity": "common",
             "maxDurability": -1,
             "icon": "WeakMedkit.png",
             "maxStackSize": 5,
@@ -51,16 +51,16 @@
             "attachment_type": ""
         },
         "WaterPlant": {
-            "displayName": "Waterweed Filament",
-            "category": "materials",
-            "rarity": "uncommon",
-            "maxDurability": -1,
-            "icon": "WaterweedFilament.png",
-            "maxStackSize": 10,
-            "attachment_weapon": "",
-            "attachment_type": ""
-        },
-        "TentaclePlant": {
+  "displayName": "Waterweed Filament",
+  "category": "materials",
+  "rarity": "uncommon",
+  "maxDurability": -1,
+  "icon": "WaterweedFilament.png",
+  "maxStackSize": 10,
+  "attachment_weapon": "",
+  "attachment_type": ""
+},
+"TentaclePlant": {
   "displayName": "Spine Briar",
   "category": "materials",
   "rarity": "rare",
@@ -483,7 +483,7 @@
         "Consumable_Health_04": {
             "displayName": "Strong Stim",
             "category": "consumables",
-            "rarity": "rare",
+            "rarity": "uncommon",
             "maxDurability": -1,
             "icon": "StrongStim.png",
             "maxStackSize": 5,
@@ -493,7 +493,7 @@
         "Consumable_Health_03": {
             "displayName": "Strong Medkit",
             "category": "consumables",
-            "rarity": "common",
+            "rarity": "uncommon",
             "maxDurability": -1,
             "icon": "StrongMedkit.png",
             "maxStackSize": 2,
@@ -2593,7 +2593,7 @@
         "Consumable_Health_05": {
             "displayName": "Combat Medkit",
             "category": "consumables",
-            "rarity": "uncommon",
+            "rarity": "rare",
             "maxDurability": -1,
             "icon": "CombatMedkit.png",
             "maxStackSize": 2,
