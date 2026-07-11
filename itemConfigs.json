@@ -161,7 +161,7 @@
             "attachment_type": ""
         },
         "AF_Token": {
-            "displayName": "Abyss Alloy",
+            "displayName": "Af Token",
             "category": "materials",
             "rarity": "legendary",
             "maxDurability": -1,
@@ -879,7 +879,28 @@
             "maxStackSize": 0,
             "attachment_weapon": "",
             "attachment_type": ""
+            
         },
+"WP_A_HVY_Shell_01": {
+  "displayName": "Karla",
+  "category": "weapons",
+  "rarity": "exotic",
+  "maxDurability": -1,
+  "icon": "KARLA.png",
+  "maxStackSize": 1,
+  "attachment_weapon": "",
+  "attachment_type": ""
+},
+"WP_D_HVY_Exotic_01": {
+  "displayName": "Haze",
+  "category": "weapons",
+  "rarity": "exotic",
+  "maxDurability": -1,
+  "icon": "HAZELauncher.png",
+  "maxStackSize": 1,
+  "attachment_weapon": "",
+  "attachment_type": ""
+},
         "WP_E_SGun_Bullet_01_scrappy": {
             "displayName": "Rusty Trenchgun",
             "category": "weapons",
@@ -3000,6 +3021,16 @@
   "attachment_weapon": "",
   "attachment_type": ""
 },
+"OTecStim_Adrenaline": {
+  "displayName": "Adrenaline Stim",
+  "category": "consumables",
+  "rarity": "rare",
+  "maxDurability": -1,
+  "icon": "adrenaline.png",
+  "maxStackSize": 5,
+  "attachment_weapon": "",
+  "attachment_type": ""
+},
 "Consumable_Health_06": {
   "displayName": "Combat Medkit",
   "category": "consumables",
@@ -3010,26 +3041,7 @@
   "attachment_weapon": "",
   "attachment_type": ""
 },
-        "WP_A_HVY_Shell_01": {
-  "displayName": "Karla",
-  "category": "weapons",
-  "rarity": "legendary",
-  "maxDurability": -1,
-  "icon": "KARLA.png",
-  "maxStackSize": 1,
-  "attachment_weapon": "",
-  "attachment_type": ""
-},
-"WP_D_HVY_Exotic_01": {
-  "displayName": "Haze",
-  "category": "weapons",
-  "rarity": "legendary",
-  "maxDurability": -1,
-  "icon": "HAZELauncher.png",
-  "maxStackSize": 1,
-  "attachment_weapon": "",
-  "attachment_type": ""
-},
+
         "Mod_Korolev_Scanner_AlienCrystals": {
             "displayName": "Focus Crystal Scanning Module",
             "category": "attachments",
