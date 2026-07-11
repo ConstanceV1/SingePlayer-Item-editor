@@ -3013,7 +3013,7 @@
         "WP_A_HVY_Shell_01": {
   "displayName": "Karla",
   "category": "weapons",
-  "rarity": "exotic",
+  "rarity": "legendary",
   "maxDurability": -1,
   "icon": "KARLA.png",
   "maxStackSize": 1,
@@ -3023,7 +3023,7 @@
 "WP_D_HVY_Exotic_01": {
   "displayName": "Haze",
   "category": "weapons",
-  "rarity": "exotic",
+  "rarity": "legendary",
   "maxDurability": -1,
   "icon": "HAZELauncher.png",
   "maxStackSize": 1,
