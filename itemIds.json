@@ -139,7 +139,7 @@
     "itemId": "j2k3l4m5-6789-01ab-cdef-2345678901jk",
     "baseItemId": "OTecStim_Adrenaline",
     "displayName": "OTecStim_Adrenaline",
-    "bgImg": "./bgImg/",
+    "bgImg": "./bgImg/adrenaline.png",
     "tags": ["otecstim", "adrenaline"],
     "primaryVanityId": 0,
     "secondaryVanityId": 0,
