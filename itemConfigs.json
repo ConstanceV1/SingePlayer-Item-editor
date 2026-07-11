@@ -30,26 +30,6 @@
             "attachment_weapon": "",
             "attachment_type": ""
         },
-        "Consumable_Health_01": {
-            "displayName": "Weak Stim",
-            "category": "consumables",
-            "rarity": "common",
-            "maxDurability": -1,
-            "icon": "WeakStim.png",
-            "maxStackSize": 5,
-            "attachment_weapon": "",
-            "attachment_type": ""
-        },
-        "Consumable_Health_02": {
-            "displayName": "Weak Medkit",
-            "category": "consumables",
-            "rarity": "common",
-            "maxDurability": -1,
-            "icon": "WeakMedkit.png",
-            "maxStackSize": 5,
-            "attachment_weapon": "",
-            "attachment_type": ""
-        },
         "WaterPlant": {
   "displayName": "Waterweed Filament",
   "category": "materials",
@@ -477,26 +457,6 @@
             "maxDurability": -1,
             "icon": "SuperChargedTharisIronIngot\n.png",
             "maxStackSize": 6,
-            "attachment_weapon": "",
-            "attachment_type": ""
-        },
-        "Consumable_Health_04": {
-            "displayName": "Combat Stim",
-            "category": "consumables",
-            "rarity": "rare",
-            "maxDurability": -1,
-            "icon": "CombatStim.png",
-            "maxStackSize": 5,
-            "attachment_weapon": "",
-            "attachment_type": ""
-        },
-        "Consumable_Health_03": {
-            "displayName": "Weak Medkit",
-            "category": "consumables",
-            "rarity": "uncommon",
-            "maxDurability": -1,
-            "icon": "WeakMedkit.png",
-            "maxStackSize": 2,
             "attachment_weapon": "",
             "attachment_type": ""
         },
@@ -2570,16 +2530,6 @@
             "attachment_weapon": "",
             "attachment_type": ""
         },
-        "Consumable_Health_06": {
-            "displayName": "Combat Medkit",
-            "category": "consumables",
-            "rarity": "rare",
-            "maxDurability": -1,
-            "icon": "CombatMedkit.png",
-            "maxStackSize": 5,
-            "attachment_weapon": "",
-            "attachment_type": ""
-        },
         "Shield_03": {
             "displayName": "Shield",
             "category": "armor",
@@ -2587,16 +2537,6 @@
             "maxDurability": 700,
             "icon": "CombatShields.png",
             "maxStackSize": 1,
-            "attachment_weapon": "",
-            "attachment_type": ""
-        },
-        "Consumable_Health_05": {
-            "displayName": "Strong Medkit",
-            "category": "consumables",
-            "rarity": "uncommon",
-            "maxDurability": -1,
-            "icon": "StrongMedkit.png",
-            "maxStackSize": 2,
             "attachment_weapon": "",
             "attachment_type": ""
         },
@@ -3010,6 +2950,66 @@
             "attachment_weapon": "scanner",
             "attachment_type": "scanner"
         },
+        "Consumable_Health_01": {
+  "displayName": "Weak Stim",
+  "category": "consumables",
+  "rarity": "common",
+  "maxDurability": -1,
+  "icon": "WeakStim.png",
+  "maxStackSize": 5,
+  "attachment_weapon": "",
+  "attachment_type": ""
+},
+"Consumable_Health_02": {
+  "displayName": "Weak Medkit",
+  "category": "consumables",
+  "rarity": "common",
+  "maxDurability": -1,
+  "icon": "WeakMedkit.png",
+  "maxStackSize": 5,
+  "attachment_weapon": "",
+  "attachment_type": ""
+},
+"Consumable_Health_03": {
+  "displayName": "Strong Medkit",
+  "category": "consumables",
+  "rarity": "uncommon",
+  "maxDurability": -1,
+  "icon": "StrongMedkit.png",
+  "maxStackSize": 2,
+  "attachment_weapon": "",
+  "attachment_type": ""
+},
+"Consumable_Health_04": {
+  "displayName": "Combat Stim",
+  "category": "consumables",
+  "rarity": "rare",
+  "maxDurability": -1,
+  "icon": "CombatStim.png",
+  "maxStackSize": 5,
+  "attachment_weapon": "",
+  "attachment_type": ""
+},
+"Consumable_Health_05": {
+  "displayName": "Strong Stim",
+  "category": "consumables",
+  "rarity": "uncommon",
+  "maxDurability": -1,
+  "icon": "StrongStim.png",
+  "maxStackSize": 5,
+  "attachment_weapon": "",
+  "attachment_type": ""
+},
+"Consumable_Health_06": {
+  "displayName": "Combat Medkit",
+  "category": "consumables",
+  "rarity": "rare",
+  "maxDurability": -1,
+  "icon": "CombatMedkit.png",
+  "maxStackSize": 2,
+  "attachment_weapon": "",
+  "attachment_type": ""
+},
         "Mod_Korolev_Scanner_AlienCrystals": {
             "displayName": "Focus Crystal Scanning Module",
             "category": "attachments",
