@@ -481,21 +481,21 @@
             "attachment_type": ""
         },
         "Consumable_Health_04": {
-            "displayName": "Strong Stim",
+            "displayName": "Combat Stim",
             "category": "consumables",
             "rarity": "uncommon",
             "maxDurability": -1,
-            "icon": "StrongStim.png",
+            "icon": "CombatStim.png",
             "maxStackSize": 5,
             "attachment_weapon": "",
             "attachment_type": ""
         },
         "Consumable_Health_03": {
-            "displayName": "Strong Medkit",
+            "displayName": "Weak Medkit",
             "category": "consumables",
             "rarity": "uncommon",
             "maxDurability": -1,
-            "icon": "StrongMedkit.png",
+            "icon": "WeakMedkit.png",
             "maxStackSize": 2,
             "attachment_weapon": "",
             "attachment_type": ""
@@ -2571,11 +2571,11 @@
             "attachment_type": ""
         },
         "Consumable_Health_06": {
-            "displayName": "Combat Stim",
+            "displayName": "Combat Medkit",
             "category": "consumables",
             "rarity": "rare",
             "maxDurability": -1,
-            "icon": "CombatStim.png",
+            "icon": "CombatMedkit.png",
             "maxStackSize": 5,
             "attachment_weapon": "",
             "attachment_type": ""
@@ -2591,11 +2591,11 @@
             "attachment_type": ""
         },
         "Consumable_Health_05": {
-            "displayName": "Combat Medkit",
+            "displayName": "Strong Medkit",
             "category": "consumables",
             "rarity": "rare",
             "maxDurability": -1,
-            "icon": "CombatMedkit.png",
+            "icon": "StrongMedkit.png",
             "maxStackSize": 2,
             "attachment_weapon": "",
             "attachment_type": ""
