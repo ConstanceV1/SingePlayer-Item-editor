@@ -2474,7 +2474,7 @@
         "Helmet_Restoration_03": {
             "displayName": "Restoration Helmet",
             "category": "armor",
-            "rarity": "epic",
+            "rarity": "exotic",
             "maxDurability": 800,
             "icon": "EnhancedHelmet.png",
             "maxStackSize": 1,
