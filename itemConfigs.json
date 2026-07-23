@@ -80,6 +80,16 @@
             "attachment_weapon": "",
             "attachment_type": ""
         },
+        "KineticShieldDome": {
+  "displayName": "Leafman Shield Dome",
+  "category": "consumables",
+  "rarity": "epic",
+  "maxDurability": -1,
+  "icon": "leafmanshield.png",
+  "maxStackSize": 3,
+  "attachment_weapon": "",
+  "attachment_type": ""
+},
         "Vest_02": {
             "displayName": "Standard Vest",
             "category": "armor",
