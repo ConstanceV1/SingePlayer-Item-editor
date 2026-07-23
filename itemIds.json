@@ -152,12 +152,12 @@
     "insuredAttachmentId": "",
     "origin": { "t": "", "p": "", "g": "" }
   },
-  {
-    "itemId": "k3l4m5n6-7890-12ab-cdef-3456789012kl",
-    "baseItemId": "KineticShield",
-    "displayName": "KineticShield",
-    "bgImg": "./bgImg/",
-    "tags": ["kinetic", "shield"],
+ {
+    "itemId": "m5n6o7p8-9012-34ab-cdef-5678901234mn",
+    "baseItemId": "KineticShieldDome",
+    "displayName": "Leafman Shield Dome",
+    "bgImg": "./bgImg/leafmanshield.png",
+    "tags": ["kinetic", "shield", "dome"],
     "primaryVanityId": 0,
     "secondaryVanityId": 0,
     "amount": 1,
